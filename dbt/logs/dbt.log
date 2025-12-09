@@ -1,0 +1,255 @@
+[0m02:13:55.773778 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x74aba857b710>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x74aba76444d0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x74aba81f42c0>]}
+
+
+============================== 02:13:55.779094 | 5016e49c-7e7e-40eb-93fc-62ed59cac3af ==============================
+[0m02:13:55.779094 [info ] [MainThread]: Running with dbt=1.10.15
+[0m02:13:55.780015 [debug] [MainThread]: running dbt with arguments {'use_colors': 'True', 'partial_parse': 'True', 'log_format': 'default', 'use_experimental_parser': 'False', 'profiles_dir': '/home/otieno/data-eng-projects/instacart-data-warehouse/dbt', 'warn_error': 'None', 'static_parser': 'True', 'debug': 'False', 'invocation_command': 'dbt init instacart_dw', 'printer_width': '80', 'quiet': 'False', 'target_path': 'None', 'indirect_selection': 'eager', 'write_json': 'True', 'cache_selected_only': 'False', 'log_path': 'logs', 'introspect': 'True', 'version_check': 'True', 'empty': 'None', 'log_cache_events': 'False', 'fail_fast': 'False', 'no_print': 'None', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'send_anonymous_usage_stats': 'True'}
+[0m02:13:55.796148 [debug] [MainThread]: Starter project path: /home/otieno/data-eng-projects/instacart-data-warehouse/venv/lib/python3.12/site-packages/dbt/include/starter_project
+[0m02:13:55.801107 [info ] [MainThread]: 
+Your new dbt project "instacart_dw" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m02:13:55.802037 [info ] [MainThread]: Setting up your profile.
+[0m02:17:47.846961 [info ] [MainThread]: Profile instacart_dw written to /home/otieno/data-eng-projects/instacart-data-warehouse/dbt/profiles.yml using target's profile_template.yml and your supplied values. Run 'dbt debug' to validate the connection.
+[0m02:17:47.907441 [debug] [MainThread]: Resource report: {"command_name": "init", "command_success": true, "command_wall_clock_time": 232.26602, "process_in_blocks": "9672", "process_kernel_time": 0.18047, "process_mem_max_rss": "104028", "process_out_blocks": "88", "process_user_time": 2.22048}
+[0m02:17:47.908787 [debug] [MainThread]: Command `dbt init` succeeded at 02:17:47.908597 after 232.27 seconds
+[0m02:17:47.910588 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x74abac0d7c80>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x74aba9ff2600>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x74aba75be810>]}
+[0m02:17:47.911729 [debug] [MainThread]: Flushing usage events
+[0m02:17:49.061889 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m02:18:08.129192 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x76ed34c2d760>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x76ed36682870>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x76ed35b00740>]}
+
+
+============================== 02:18:08.183285 | d84a54b9-eece-4b19-8f0f-03e5dc3eac2c ==============================
+[0m02:18:08.183285 [info ] [MainThread]: Running with dbt=1.10.15
+[0m02:18:08.184438 [debug] [MainThread]: running dbt with arguments {'target_path': 'None', 'empty': 'None', 'cache_selected_only': 'False', 'printer_width': '80', 'partial_parse': 'True', 'no_print': 'None', 'use_experimental_parser': 'False', 'introspect': 'True', 'write_json': 'True', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'log_format': 'default', 'quiet': 'False', 'profiles_dir': '/home/otieno/data-eng-projects/instacart-data-warehouse/dbt', 'indirect_selection': 'eager', 'send_anonymous_usage_stats': 'True', 'log_path': 'logs', 'use_colors': 'True', 'static_parser': 'True', 'warn_error': 'None', 'log_cache_events': 'False', 'version_check': 'True', 'invocation_command': 'dbt debug', 'debug': 'False', 'fail_fast': 'False'}
+[0m02:18:08.269870 [info ] [MainThread]: dbt version: 1.10.15
+[0m02:18:08.271685 [info ] [MainThread]: python version: 3.12.3
+[0m02:18:08.273452 [info ] [MainThread]: python path: /home/otieno/data-eng-projects/instacart-data-warehouse/venv/bin/python3
+[0m02:18:08.275160 [info ] [MainThread]: os info: Linux-6.8.0-88-generic-x86_64-with-glibc2.39
+[0m02:18:08.397093 [info ] [MainThread]: Using profiles dir at /home/otieno/data-eng-projects/instacart-data-warehouse/dbt
+[0m02:18:08.397868 [info ] [MainThread]: Using profiles.yml file at /home/otieno/data-eng-projects/instacart-data-warehouse/dbt/profiles.yml
+[0m02:18:08.398559 [info ] [MainThread]: Using dbt_project.yml file at /home/otieno/data-eng-projects/instacart-data-warehouse/dbt/dbt_project.yml
+[0m02:18:08.399611 [info ] [MainThread]: adapter type: postgres
+[0m02:18:08.400210 [info ] [MainThread]: adapter version: 1.9.1
+[0m02:18:08.400921 [info ] [MainThread]: Configuration:
+[0m02:18:08.401554 [info ] [MainThread]:   profiles.yml file [[32mOK found and valid[0m]
+[0m02:18:08.402180 [info ] [MainThread]:   dbt_project.yml file [[31mERROR not found[0m]
+[0m02:18:08.402862 [info ] [MainThread]: Required dependencies:
+[0m02:18:08.403859 [debug] [MainThread]: Executing "git --help"
+[0m02:18:08.446453 [debug] [MainThread]: STDOUT: "b"usage: git [-v | --version] [-h | --help] [-C <path>] [-c <name>=<value>]\n           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]\n           [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--bare]\n           [--git-dir=<path>] [--work-tree=<path>] [--namespace=<name>]\n           [--config-env=<name>=<envvar>] <command> [<args>]\n\nThese are common Git commands used in various situations:\n\nstart a working area (see also: git help tutorial)\n   clone     Clone a repository into a new directory\n   init      Create an empty Git repository or reinitialize an existing one\n\nwork on the current change (see also: git help everyday)\n   add       Add file contents to the index\n   mv        Move or rename a file, a directory, or a symlink\n   restore   Restore working tree files\n   rm        Remove files from the working tree and from the index\n\nexamine the history and state (see also: git help revisions)\n   bisect    Use binary search to find the commit that introduced a bug\n   diff      Show changes between commits, commit and working tree, etc\n   grep      Print lines matching a pattern\n   log       Show commit logs\n   show      Show various types of objects\n   status    Show the working tree status\n\ngrow, mark and tweak your common history\n   branch    List, create, or delete branches\n   commit    Record changes to the repository\n   merge     Join two or more development histories together\n   rebase    Reapply commits on top of another base tip\n   reset     Reset current HEAD to the specified state\n   switch    Switch branches\n   tag       Create, list, delete or verify a tag object signed with GPG\n\ncollaborate (see also: git help workflows)\n   fetch     Download objects and refs from another repository\n   pull      Fetch from and integrate with another repository or a local branch\n   push      Update remote refs along with associated objects\n\n'git help -a' and 'git help -g' list available subcommands and some\nconcept guides. See 'git help <command>' or 'git help <concept>'\nto read about a specific subcommand or concept.\nSee 'git help git' for an overview of the system.\n""
+[0m02:18:08.448303 [debug] [MainThread]: STDERR: "b''"
+[0m02:18:08.450350 [info ] [MainThread]:  - git [[32mOK found[0m]
+
+[0m02:18:08.452624 [info ] [MainThread]: Connection:
+[0m02:18:08.454418 [info ] [MainThread]:   host: localhost
+[0m02:18:08.456550 [info ] [MainThread]:   port: 5432
+[0m02:18:08.458327 [info ] [MainThread]:   user: postgres
+[0m02:18:08.459078 [info ] [MainThread]:   database: instacart_db
+[0m02:18:08.460121 [info ] [MainThread]:   schema: marts
+[0m02:18:08.461299 [info ] [MainThread]:   connect_timeout: 10
+[0m02:18:08.462503 [info ] [MainThread]:   role: None
+[0m02:18:08.463730 [info ] [MainThread]:   search_path: None
+[0m02:18:08.464972 [info ] [MainThread]:   keepalives_idle: 0
+[0m02:18:08.466164 [info ] [MainThread]:   sslmode: None
+[0m02:18:08.469280 [info ] [MainThread]:   sslcert: None
+[0m02:18:08.475840 [info ] [MainThread]:   sslkey: None
+[0m02:18:08.479023 [info ] [MainThread]:   sslrootcert: None
+[0m02:18:08.480562 [info ] [MainThread]:   application_name: dbt
+[0m02:18:08.481695 [info ] [MainThread]:   retries: 1
+[0m02:18:08.483557 [info ] [MainThread]: Registered adapter: postgres=1.9.1
+[0m02:18:08.852737 [debug] [MainThread]: Acquiring new postgres connection 'debug'
+[0m02:18:08.994945 [debug] [MainThread]: Using postgres connection "debug"
+[0m02:18:08.996459 [debug] [MainThread]: On debug: select 1 as id
+[0m02:18:08.997810 [debug] [MainThread]: Opening a new connection, currently in state init
+[0m02:18:09.349996 [debug] [MainThread]: Postgres adapter: Got a retryable error when attempting to open a postgres connection.
+1 attempts remaining. Retrying in 0 seconds.
+Error:
+connection to server at "localhost" (127.0.0.1), port 5432 failed: FATAL:  database "instacart_db" does not exist
+
+[0m02:18:09.371892 [debug] [MainThread]: Postgres adapter: Error running SQL: select 1 as id
+[0m02:18:09.372699 [debug] [MainThread]: Postgres adapter: Rolling back transaction.
+[0m02:18:09.373420 [debug] [MainThread]: On debug: No close available on handle
+[0m02:18:09.374117 [info ] [MainThread]:   Connection test: [[31mERROR[0m]
+
+[0m02:18:09.374897 [info ] [MainThread]: [31m2 checks failed:[0m
+[0m02:18:09.375567 [info ] [MainThread]: Project loading failed for the following reason:
+ project path </home/otieno/data-eng-projects/instacart-data-warehouse/dbt/dbt_project.yml> not found
+
+[0m02:18:09.376200 [info ] [MainThread]: dbt was unable to connect to the specified database.
+The database returned the following error:
+
+  >Database Error
+  connection to server at "localhost" (127.0.0.1), port 5432 failed: FATAL:  database "instacart_db" does not exist
+  
+
+Check your database credentials and try again. For more information, visit:
+https://docs.getdbt.com/docs/configure-your-profile
+
+
+[0m02:18:09.377596 [debug] [MainThread]: Resource report: {"command_name": "debug", "command_success": false, "command_wall_clock_time": 1.3563117, "process_in_blocks": "48456", "process_kernel_time": 0.354233, "process_mem_max_rss": "114472", "process_out_blocks": "16", "process_user_time": 3.11363}
+[0m02:18:09.378513 [debug] [MainThread]: Command `dbt debug` failed at 02:18:09.378242 after 1.36 seconds
+[0m02:18:09.379628 [debug] [MainThread]: Connection 'debug' was properly closed.
+[0m02:18:09.380720 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x76ed33f394f0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x76ed35b00740>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x76ed34b1a780>]}
+[0m02:18:09.382152 [debug] [MainThread]: Flushing usage events
+[0m02:18:10.567934 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m02:48:49.616853 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7b5921770500>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7b5922de92b0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7b5921772780>]}
+
+
+============================== 02:48:49.694168 | 4c1145b1-b118-40ad-b5c8-c6179bad3ef8 ==============================
+[0m02:48:49.694168 [info ] [MainThread]: Running with dbt=1.10.15
+[0m02:48:49.696419 [debug] [MainThread]: running dbt with arguments {'fail_fast': 'False', 'invocation_command': 'dbt init instacart_dw', 'warn_error': 'None', 'partial_parse': 'True', 'static_parser': 'True', 'write_json': 'True', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'no_print': 'None', 'log_format': 'default', 'log_path': 'logs', 'indirect_selection': 'eager', 'target_path': 'None', 'log_cache_events': 'False', 'quiet': 'False', 'profiles_dir': '/home/otieno/.dbt', 'cache_selected_only': 'False', 'introspect': 'True', 'use_experimental_parser': 'False', 'use_colors': 'True', 'debug': 'False', 'version_check': 'True', 'send_anonymous_usage_stats': 'True', 'printer_width': '80', 'empty': 'None'}
+[0m02:48:49.884814 [info ] [MainThread]: A project called instacart_dw already exists here.
+[0m02:48:49.931984 [debug] [MainThread]: Resource report: {"command_name": "init", "command_success": true, "command_wall_clock_time": 0.47000626, "process_in_blocks": "74288", "process_kernel_time": 0.552261, "process_mem_max_rss": "99332", "process_out_blocks": "24", "process_user_time": 3.852732}
+[0m02:48:49.933218 [debug] [MainThread]: Command `dbt init` succeeded at 02:48:49.932903 after 0.47 seconds
+[0m02:48:49.934511 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7b592412d490>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7b5921b3fad0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7b59213546b0>]}
+[0m02:48:49.935721 [debug] [MainThread]: Flushing usage events
+[0m02:48:51.312817 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m02:53:22.637681 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7a88056f72c0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7a8805448080>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7a880544bb00>]}
+
+
+============================== 02:53:22.642785 | 4824d523-7536-43a8-b421-915191d3436b ==============================
+[0m02:53:22.642785 [info ] [MainThread]: Running with dbt=1.10.15
+[0m02:53:22.643783 [debug] [MainThread]: running dbt with arguments {'send_anonymous_usage_stats': 'True', 'log_cache_events': 'False', 'empty': 'None', 'fail_fast': 'False', 'target_path': 'None', 'partial_parse': 'True', 'no_print': 'None', 'profiles_dir': '/home/otieno/.dbt', 'log_format': 'default', 'log_path': 'logs', 'debug': 'False', 'write_json': 'True', 'cache_selected_only': 'False', 'invocation_command': 'dbt debug --target dev', 'warn_error': 'None', 'introspect': 'True', 'quiet': 'False', 'use_colors': 'True', 'static_parser': 'True', 'printer_width': '80', 'indirect_selection': 'eager', 'use_experimental_parser': 'False', 'version_check': 'True', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])'}
+[0m02:53:22.657525 [info ] [MainThread]: dbt version: 1.10.15
+[0m02:53:22.658527 [info ] [MainThread]: python version: 3.12.3
+[0m02:53:22.659705 [info ] [MainThread]: python path: /home/otieno/data-eng-projects/instacart-data-warehouse/venv/bin/python3
+[0m02:53:22.660694 [info ] [MainThread]: os info: Linux-6.8.0-88-generic-x86_64-with-glibc2.39
+[0m02:53:22.761927 [info ] [MainThread]: Using profiles dir at /home/otieno/.dbt
+[0m02:53:22.762690 [info ] [MainThread]: Using profiles.yml file at /home/otieno/.dbt/profiles.yml
+[0m02:53:22.763366 [info ] [MainThread]: Using dbt_project.yml file at /home/otieno/data-eng-projects/instacart-data-warehouse/dbt/dbt_project.yml
+[0m02:53:22.764317 [info ] [MainThread]: adapter type: postgres
+[0m02:53:22.764936 [info ] [MainThread]: adapter version: 1.9.1
+[0m02:53:22.765631 [info ] [MainThread]: Configuration:
+[0m02:53:22.766239 [info ] [MainThread]:   profiles.yml file [[32mOK found and valid[0m]
+[0m02:53:22.766910 [info ] [MainThread]:   dbt_project.yml file [[31mERROR not found[0m]
+[0m02:53:22.767561 [info ] [MainThread]: Required dependencies:
+[0m02:53:22.768744 [debug] [MainThread]: Executing "git --help"
+[0m02:53:22.772739 [debug] [MainThread]: STDOUT: "b"usage: git [-v | --version] [-h | --help] [-C <path>] [-c <name>=<value>]\n           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]\n           [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--bare]\n           [--git-dir=<path>] [--work-tree=<path>] [--namespace=<name>]\n           [--config-env=<name>=<envvar>] <command> [<args>]\n\nThese are common Git commands used in various situations:\n\nstart a working area (see also: git help tutorial)\n   clone     Clone a repository into a new directory\n   init      Create an empty Git repository or reinitialize an existing one\n\nwork on the current change (see also: git help everyday)\n   add       Add file contents to the index\n   mv        Move or rename a file, a directory, or a symlink\n   restore   Restore working tree files\n   rm        Remove files from the working tree and from the index\n\nexamine the history and state (see also: git help revisions)\n   bisect    Use binary search to find the commit that introduced a bug\n   diff      Show changes between commits, commit and working tree, etc\n   grep      Print lines matching a pattern\n   log       Show commit logs\n   show      Show various types of objects\n   status    Show the working tree status\n\ngrow, mark and tweak your common history\n   branch    List, create, or delete branches\n   commit    Record changes to the repository\n   merge     Join two or more development histories together\n   rebase    Reapply commits on top of another base tip\n   reset     Reset current HEAD to the specified state\n   switch    Switch branches\n   tag       Create, list, delete or verify a tag object signed with GPG\n\ncollaborate (see also: git help workflows)\n   fetch     Download objects and refs from another repository\n   pull      Fetch from and integrate with another repository or a local branch\n   push      Update remote refs along with associated objects\n\n'git help -a' and 'git help -g' list available subcommands and some\nconcept guides. See 'git help <command>' or 'git help <concept>'\nto read about a specific subcommand or concept.\nSee 'git help git' for an overview of the system.\n""
+[0m02:53:22.774424 [debug] [MainThread]: STDERR: "b''"
+[0m02:53:22.775472 [info ] [MainThread]:  - git [[32mOK found[0m]
+
+[0m02:53:22.776551 [info ] [MainThread]: Connection:
+[0m02:53:22.777641 [info ] [MainThread]:   host: localhost
+[0m02:53:22.778706 [info ] [MainThread]:   port: 5432
+[0m02:53:22.779725 [info ] [MainThread]:   user: postgres
+[0m02:53:22.780788 [info ] [MainThread]:   database: instacart_db
+[0m02:53:22.781977 [info ] [MainThread]:   schema: marts
+[0m02:53:22.783199 [info ] [MainThread]:   connect_timeout: 10
+[0m02:53:22.784600 [info ] [MainThread]:   role: None
+[0m02:53:22.786063 [info ] [MainThread]:   search_path: None
+[0m02:53:22.788543 [info ] [MainThread]:   keepalives_idle: 0
+[0m02:53:22.790912 [info ] [MainThread]:   sslmode: None
+[0m02:53:22.794577 [info ] [MainThread]:   sslcert: None
+[0m02:53:22.796958 [info ] [MainThread]:   sslkey: None
+[0m02:53:22.798242 [info ] [MainThread]:   sslrootcert: None
+[0m02:53:22.799503 [info ] [MainThread]:   application_name: dbt
+[0m02:53:22.800755 [info ] [MainThread]:   retries: 1
+[0m02:53:22.803475 [info ] [MainThread]: Registered adapter: postgres=1.9.1
+[0m02:53:22.954988 [debug] [MainThread]: Acquiring new postgres connection 'debug'
+[0m02:53:23.006376 [debug] [MainThread]: Using postgres connection "debug"
+[0m02:53:23.007024 [debug] [MainThread]: On debug: select 1 as id
+[0m02:53:23.007611 [debug] [MainThread]: Opening a new connection, currently in state init
+[0m02:53:23.061631 [debug] [MainThread]: Postgres adapter: Got a retryable error when attempting to open a postgres connection.
+1 attempts remaining. Retrying in 0 seconds.
+Error:
+connection to server at "localhost" (127.0.0.1), port 5432 failed: FATAL:  password authentication failed for user "postgres"
+connection to server at "localhost" (127.0.0.1), port 5432 failed: FATAL:  password authentication failed for user "postgres"
+
+[0m02:53:23.089765 [debug] [MainThread]: Postgres adapter: Error running SQL: select 1 as id
+[0m02:53:23.090560 [debug] [MainThread]: Postgres adapter: Rolling back transaction.
+[0m02:53:23.091191 [debug] [MainThread]: On debug: No close available on handle
+[0m02:53:23.091822 [info ] [MainThread]:   Connection test: [[31mERROR[0m]
+
+[0m02:53:23.092627 [info ] [MainThread]: [31m2 checks failed:[0m
+[0m02:53:23.093296 [info ] [MainThread]: Project loading failed for the following reason:
+ project path </home/otieno/data-eng-projects/instacart-data-warehouse/dbt/dbt_project.yml> not found
+
+[0m02:53:23.093961 [info ] [MainThread]: dbt was unable to connect to the specified database.
+The database returned the following error:
+
+  >Database Error
+  connection to server at "localhost" (127.0.0.1), port 5432 failed: FATAL:  password authentication failed for user "postgres"
+  connection to server at "localhost" (127.0.0.1), port 5432 failed: FATAL:  password authentication failed for user "postgres"
+  
+
+Check your database credentials and try again. For more information, visit:
+https://docs.getdbt.com/docs/configure-your-profile
+
+
+[0m02:53:23.095397 [debug] [MainThread]: Resource report: {"command_name": "debug", "command_success": false, "command_wall_clock_time": 0.57398564, "process_in_blocks": "2456", "process_kernel_time": 0.267763, "process_mem_max_rss": "114260", "process_out_blocks": "24", "process_user_time": 2.50978}
+[0m02:53:23.096161 [debug] [MainThread]: Command `dbt debug` failed at 02:53:23.095992 after 0.57 seconds
+[0m02:53:23.096754 [debug] [MainThread]: Connection 'debug' was properly closed.
+[0m02:53:23.097359 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7a880442fd10>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7a8804403f80>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7a880454f5f0>]}
+[0m02:53:23.098147 [debug] [MainThread]: Flushing usage events
+[0m02:53:24.324869 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m02:55:41.129105 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7756fc333920>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7756fd771160>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7756fc5df740>]}
+
+
+============================== 02:55:41.133752 | dd16a7e4-89bd-4811-af81-58d9615f6cf6 ==============================
+[0m02:55:41.133752 [info ] [MainThread]: Running with dbt=1.10.15
+[0m02:55:41.134685 [debug] [MainThread]: running dbt with arguments {'cache_selected_only': 'False', 'send_anonymous_usage_stats': 'True', 'log_path': 'logs', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'warn_error': 'None', 'fail_fast': 'False', 'debug': 'False', 'introspect': 'True', 'target_path': 'None', 'profiles_dir': '/home/otieno/.dbt', 'log_format': 'default', 'partial_parse': 'True', 'empty': 'None', 'version_check': 'True', 'indirect_selection': 'eager', 'quiet': 'False', 'use_experimental_parser': 'False', 'printer_width': '80', 'use_colors': 'True', 'log_cache_events': 'False', 'invocation_command': 'dbt debug --target dev', 'static_parser': 'True', 'write_json': 'True', 'no_print': 'None'}
+[0m02:55:41.151222 [info ] [MainThread]: dbt version: 1.10.15
+[0m02:55:41.152444 [info ] [MainThread]: python version: 3.12.3
+[0m02:55:41.153536 [info ] [MainThread]: python path: /home/otieno/data-eng-projects/instacart-data-warehouse/venv/bin/python3
+[0m02:55:41.154733 [info ] [MainThread]: os info: Linux-6.8.0-88-generic-x86_64-with-glibc2.39
+[0m02:55:41.264121 [info ] [MainThread]: Using profiles dir at /home/otieno/.dbt
+[0m02:55:41.264932 [info ] [MainThread]: Using profiles.yml file at /home/otieno/.dbt/profiles.yml
+[0m02:55:41.265671 [info ] [MainThread]: Using dbt_project.yml file at /home/otieno/data-eng-projects/instacart-data-warehouse/dbt/dbt_project.yml
+[0m02:55:41.266627 [info ] [MainThread]: adapter type: postgres
+[0m02:55:41.267368 [info ] [MainThread]: adapter version: 1.9.1
+[0m02:55:41.268082 [info ] [MainThread]: Configuration:
+[0m02:55:41.268772 [info ] [MainThread]:   profiles.yml file [[32mOK found and valid[0m]
+[0m02:55:41.269426 [info ] [MainThread]:   dbt_project.yml file [[31mERROR not found[0m]
+[0m02:55:41.270038 [info ] [MainThread]: Required dependencies:
+[0m02:55:41.271315 [debug] [MainThread]: Executing "git --help"
+[0m02:55:41.275100 [debug] [MainThread]: STDOUT: "b"usage: git [-v | --version] [-h | --help] [-C <path>] [-c <name>=<value>]\n           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]\n           [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--bare]\n           [--git-dir=<path>] [--work-tree=<path>] [--namespace=<name>]\n           [--config-env=<name>=<envvar>] <command> [<args>]\n\nThese are common Git commands used in various situations:\n\nstart a working area (see also: git help tutorial)\n   clone     Clone a repository into a new directory\n   init      Create an empty Git repository or reinitialize an existing one\n\nwork on the current change (see also: git help everyday)\n   add       Add file contents to the index\n   mv        Move or rename a file, a directory, or a symlink\n   restore   Restore working tree files\n   rm        Remove files from the working tree and from the index\n\nexamine the history and state (see also: git help revisions)\n   bisect    Use binary search to find the commit that introduced a bug\n   diff      Show changes between commits, commit and working tree, etc\n   grep      Print lines matching a pattern\n   log       Show commit logs\n   show      Show various types of objects\n   status    Show the working tree status\n\ngrow, mark and tweak your common history\n   branch    List, create, or delete branches\n   commit    Record changes to the repository\n   merge     Join two or more development histories together\n   rebase    Reapply commits on top of another base tip\n   reset     Reset current HEAD to the specified state\n   switch    Switch branches\n   tag       Create, list, delete or verify a tag object signed with GPG\n\ncollaborate (see also: git help workflows)\n   fetch     Download objects and refs from another repository\n   pull      Fetch from and integrate with another repository or a local branch\n   push      Update remote refs along with associated objects\n\n'git help -a' and 'git help -g' list available subcommands and some\nconcept guides. See 'git help <command>' or 'git help <concept>'\nto read about a specific subcommand or concept.\nSee 'git help git' for an overview of the system.\n""
+[0m02:55:41.276677 [debug] [MainThread]: STDERR: "b''"
+[0m02:55:41.277967 [info ] [MainThread]:  - git [[32mOK found[0m]
+
+[0m02:55:41.279204 [info ] [MainThread]: Connection:
+[0m02:55:41.280461 [info ] [MainThread]:   host: localhost
+[0m02:55:41.281544 [info ] [MainThread]:   port: 5432
+[0m02:55:41.282620 [info ] [MainThread]:   user: postgres
+[0m02:55:41.283669 [info ] [MainThread]:   database: instacart_db
+[0m02:55:41.284840 [info ] [MainThread]:   schema: marts
+[0m02:55:41.286079 [info ] [MainThread]:   connect_timeout: 10
+[0m02:55:41.287580 [info ] [MainThread]:   role: None
+[0m02:55:41.289230 [info ] [MainThread]:   search_path: None
+[0m02:55:41.291790 [info ] [MainThread]:   keepalives_idle: 0
+[0m02:55:41.294164 [info ] [MainThread]:   sslmode: None
+[0m02:55:41.295478 [info ] [MainThread]:   sslcert: None
+[0m02:55:41.296758 [info ] [MainThread]:   sslkey: None
+[0m02:55:41.298042 [info ] [MainThread]:   sslrootcert: None
+[0m02:55:41.299999 [info ] [MainThread]:   application_name: dbt
+[0m02:55:41.302467 [info ] [MainThread]:   retries: 1
+[0m02:55:41.305844 [info ] [MainThread]: Registered adapter: postgres=1.9.1
+[0m02:55:41.440629 [debug] [MainThread]: Acquiring new postgres connection 'debug'
+[0m02:55:41.484285 [debug] [MainThread]: Using postgres connection "debug"
+[0m02:55:41.485021 [debug] [MainThread]: On debug: select 1 as id
+[0m02:55:41.485640 [debug] [MainThread]: Opening a new connection, currently in state init
+[0m02:55:41.507498 [debug] [MainThread]: SQL status: SELECT 1 in 0.022 seconds
+[0m02:55:41.509093 [debug] [MainThread]: On debug: Close
+[0m02:55:41.509827 [info ] [MainThread]:   Connection test: [[32mOK connection ok[0m]
+
+[0m02:55:41.510700 [info ] [MainThread]: [31m1 check failed:[0m
+[0m02:55:41.511727 [info ] [MainThread]: Project loading failed for the following reason:
+ project path </home/otieno/data-eng-projects/instacart-data-warehouse/dbt/dbt_project.yml> not found
+
+[0m02:55:41.513400 [debug] [MainThread]: Resource report: {"command_name": "debug", "command_success": false, "command_wall_clock_time": 0.46797007, "process_in_blocks": "56", "process_kernel_time": 0.225647, "process_mem_max_rss": "114332", "process_out_blocks": "24", "process_user_time": 2.465151}
+[0m02:55:41.514242 [debug] [MainThread]: Command `dbt debug` failed at 02:55:41.514064 after 0.47 seconds
+[0m02:55:41.514849 [debug] [MainThread]: Connection 'debug' was properly closed.
+[0m02:55:41.515525 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7756fbdd10a0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7756fc5df740>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7756fb9d73b0>]}
+[0m02:55:41.516520 [debug] [MainThread]: Flushing usage events
+[0m02:55:42.573190 [debug] [MainThread]: An error was encountered while trying to flush usage events
